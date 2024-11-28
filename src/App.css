@@ -1,0 +1,40 @@
+body{
+  width: 100vw;
+  height: 100vh;
+}
+.container{
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(to bottom, #17252a, #def2f1);
+}
+.logo{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+table{
+  border: 1px solid white;
+  border-collapse: collapse;
+  width: 600px;
+  height: 300px;
+  text-align: center;
+}
+tr{
+  width: 100%;
+}
+th, td{
+  width: 30%;
+  border: 1px solid white;
+}
+button{
+  width: 80px;
+  height: 30px;
+  cursor: pointer;
+  background-color: #2b7a78;
+  border: 1px solid black;
+}
+button:hover{
+  background-color: #3aafa9;
+  text-decoration: underline;
+  color: white;
+}
